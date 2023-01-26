@@ -4,7 +4,7 @@
 
 
 Welcome! This repository contains projects coded in Python aimed towards utilising statistics to unfold findings.
-There are 3 parts to this repository; statistics_1, statistics_2 and statistics_3. In the subsequent paragraphs, each project will be explained and elaborated. 
+There are 2 parts to this repository; statistics_1 and statistics_2. In the subsequent paragraphs, each project will be explained and elaborated. 
 Any form of feedback will be appreciated. Thank you for coming by. :) 
   
   
