@@ -8,7 +8,7 @@ There are 3 parts to this repository; statistics_1, statistics_2 and statistics_
 Any form of feedback will be appreciated. Thank you for coming by. :) 
   
   
-## [Stats_1](https://github.com/audreywee/Statistics/blob/main/stats_1.ipynb)
+## [Statistics_1](statistics_1.ipynb)
 
 Through analysing the datasheet on the weather, the aim of this project is to unearth if there is a possibility of a relationship between temperature and various factors.
 
