@@ -8,3 +8,4 @@ There are 3 parts to this repository; stas_1, stats_2 and stats_3. In the subseq
 Any form of feedback will be appreciated. Thank you for coming by. :) 
   
   
+Stats_1 
