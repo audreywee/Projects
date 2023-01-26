@@ -12,12 +12,28 @@ Any form of feedback will be appreciated. Thank you for coming by. :)
 
 Through analysing the datasheet on the weather, the aim of this project is to unearth if there is a possibility of a relationship between temperature and various factors.
 
-Plotting a bar graph(Figure 1.1), the summary of the weather is on the x-axis and the temperature being the y-axis. It is clear that the summary of weather is related to the temperature. From Figure 1.1, when the weather is Dry, the temperature tends to be higher at above 25 degrees. In Cloudy weathers, the temperature tends to fall between 10 to 25 degrees, while Breezy and Foggy weathers have lower temperatures below negative 0 degrees. 
+Plotting a bar graph(Figure 1.1), the 'Summary' of the weather is on the x-axis and the 'Temperature' being the y-axis. It is clear that the 'Summary' of weather is related to the 'Temperature'. From Figure 1.1, when the weather is 'Dry', the 'Temperature' tends to be higher at above 25 degrees. In 'Cloudy' weathers, the 'Temperature' tends to fall between 10 to 25 degrees, while 'Breezy' and 'Foggy' weathers have lower 'Temperatures' below negative 0 degrees. 
 
-However, it is vauge to conclude that the summary of weather determines that the temperature will be of a certain range, albeit the clear association between the two factors. 
+However, it is vauge to conclude that the 'Summary' of weather determines that the 'Temperature' will be of a certain range, albeit the clear association between the two factors. 
 
-For example, from Figure 1.1, in Windy weathers the temperature falls below 8 degress while a Windy and Dry weathers falls above 25 degrees which is a significant differenece from just Windy weathers. 
+For example, from Figure 1.1, in 'Windy' weathers the 'Temperature' falls below 8 degress while a 'Windy and Dry' weather falls above 25 degrees which is a significant differenece from just 'Windy' weathers. 
 
-Figure 1.2 shows that there is a negative correlation between Humidity and Temperature. the higher the Temperature, the lower the Humidity. The coefficient of correlation ranges from -1 to 1 which shows that there is a strong negative correlation.
+Figure 1.2 shows that there is a negative correlation between 'Humidity' and 'Temperature'. the higher the 'Temperature', the lower the 'Humidity'. The coefficient of correlation ranges from -1 to 1 which shows that there is a strong negative correlation.
 
-In Conclusion. The temperature of the weather is affected by variosu factors such as the Humidity and the Summary of the weather. 
+In Conclusion. The 'Temperature' of the weather is affected by various factors such as the 'Humidity' and the 'Summary' of the weather. 
+
+
+## [Statistics_2]
+
+A slight EDA(Exploratory Data Analysis) is done the the dataset to analyse, explore and sum up its main features.
+
+After creating and new column, 'Month' , from the 'Order Date', we can use the new data to conclude which month generates the best sale.
+By generating a 'Sales' column by multiplying the 'Price Each' and 'Quantity Ordered'. Grouping the dataset by month and plotting a bar graph of 'Month' against 'Sales' shows that the 12th 'Month' gains the highest 'Sales' in Figure 2.1. 
+
+To find out which city makes the highest 'Sales', we extract the city from the 'Purchase Address'. This can be done by defining a function to get city from the adress and identifying that the 'Purchase Address' has a format of street name, city, postal code. 
+
+Grouping the data by 'City' and plotting a bar chart(Figure 2.2) of 'City' against 'Sales', we can see that 'San Francisco' has the highest returns in 'Sales'.
+
+Subsequently, to find the 'City' that makes the best 'Sales' across 12 months, we group multiple columns together and query the 'Sales' of each 'City' in the first 3 'Months'.  Plotting the data of the 'Sales' that each 'City' mkaes across 12 'Months' by looping through all the cities and grouping the current city's 12 'Month' 'Sales' and plotting a line plot for each 'City' as seen in Figure 2.3. 
+
+From Figure 2.3, it can be seen that 'San Francisco' generates the most 'Sales' across all 12 'Months' and has the highest 'Sales' in the 12th 'Month'.
