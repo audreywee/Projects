@@ -18,3 +18,6 @@ However, it is vauge to conclude that the summary of weather determines that the
 
 For example, from Figure 1.1, in Windy weathers the temperature falls below 8 degress while a Windy and Dry weathers falls above 25 degrees which is a significant differenece from just Windy weathers. 
 
+Figure 1.2 shows that there is a negative correlation between Humidity and Temperature. the higher the Temperature, the lower the Humidity. The coefficient of correlation ranges from -1 to 1 which shows that there is a strong negative correlation.
+
+In Conclusion. The temperature of the weather is affected by variosu factors such as the Humidity and the Summary of the weather. 
